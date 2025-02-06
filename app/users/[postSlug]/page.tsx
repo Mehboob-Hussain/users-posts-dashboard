@@ -50,7 +50,7 @@ export default function UserDetailPage() {
 
         setPosts(postsData);
         setUser(userData);
-      } catch (err) {
+      } catch {
         setError("Error fetching data. Please try again.");
       } finally {
         setLoading(false);
